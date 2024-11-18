@@ -8,32 +8,13 @@
               src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_jvgHbdQJGnsp-pkTl2TqusMRD4lhW5yPUQ&s'
             />
           </q-avatar>
-          <q-toolbar-title>
+          <q-toolbar-title class="q-mb-sm">
             Abdullah Kiran
           </q-toolbar-title>
+          <q-badge color="purple">
+            Software Developer
+          </q-badge>
         </div>
-      </div>
-      <div class="row justify-center q-mb-md badge-text-color">
-        <q-badge
-          outline
-          color="primary"
-          class="col-2 justify-center">
-          Projects
-        </q-badge>
-        <div class="col-1"/>
-        <q-badge
-          outline
-          color="primary"
-          class="col-2 justify-center">
-          Technologien
-        </q-badge>
-        <div class="col-1"/>
-        <q-badge
-          outline
-          color="primary"
-          class="col-2 justify-center">
-          Socials
-        </q-badge>
       </div>
       <q-separator color="gray" inset></q-separator>
       <router-view></router-view>
