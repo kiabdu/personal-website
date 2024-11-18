@@ -1,7 +1,7 @@
 <template>
   <q-layout view="hHh lpR fFf">
     <q-header class="bg-white text-dark q-mt-lg">
-      <div class="row justify-center no-wrap q-mb-md">
+      <div class="row justify-center no-wrap q-mb-lg">
         <div class="column justify-center items-center">
           <q-avatar size="7rem" class="q-mb-lg">
             <q-img
@@ -17,7 +17,17 @@
         </div>
       </div>
       <q-separator color="gray" inset></q-separator>
-      <router-view></router-view>
+      <q-tabs class="q-mt-xs">
+        <q-route-tab>
+            about me
+        </q-route-tab>
+        <q-route-tab>
+          curriculum vitae
+        </q-route-tab>
+        <q-route-tab>
+          techstack
+        </q-route-tab>
+      </q-tabs>
     </q-header>
     <q-page-container>
       <router-view/>
